@@ -29,3 +29,10 @@ In all scenarios where a conflict is encountered, the user should be able to abo
  - complex rebase with multiple conflicts
     - changes in the target branch overlap with work in the base branch and need significant work to resolve
     - Desktop should display the rebase progress, ask the user to resolve a conflict whenever the rebase stops, then indicate 
+
+### Rebase with binary files
+
+ - both branches modify the same image
+    - conflict detected
+    - application asks user to choose which version of the file to use
+    - application sets the right version and continues the rebase
