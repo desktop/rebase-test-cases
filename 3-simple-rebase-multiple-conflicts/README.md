@@ -2,11 +2,11 @@
 
 This test case defines a base branch and a target branch that update the same file to trigger conflicts in multiple commits.
 
-`3-simple-rebase-multiple-conflicts-baseline` is a branch that contains a `CHANGELOG.md` file with some release notes.
+ - `3-simple-rebase-multiple-conflicts-baseline` is a branch that contains a `CHANGELOG.md` file with some release notes.
 
-`3-simple-rebase-multiple-conflicts-base-branch` builds upon the baseline to add in four beta releases in separate commits.
+ - `3-simple-rebase-multiple-conflicts-base-branch` builds upon the baseline to add in four beta releases in separate commits.
 
-`3-simple-rebase-multiple-conflicts-target-branch` builds upon the baseline to add in four production releases in separate commits.
+ - `3-simple-rebase-multiple-conflicts-target-branch` builds upon the baseline to add in four production releases in separate commits.
 
 The goal here is to ensure each commit keeps the changelog in order while also preserving the changelog entries (because they might be the same between versions).
 
