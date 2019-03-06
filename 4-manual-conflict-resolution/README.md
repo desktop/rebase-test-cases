@@ -1,4 +1,4 @@
-# Simple Rebase, Multiple Conflicts
+# Manual Conflict Resolution
 
 This test case defines a base branch and a target branch that update the same file to trigger conflicts in multiple commits.
 
