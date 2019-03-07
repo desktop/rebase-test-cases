@@ -18,6 +18,13 @@ In all scenarios where a conflict is encountered, the user should be able to abo
     - changes in the target branch overlap with work in the base branch and need significant work to resolve
     - Desktop should display the rebase progress, ask the user to resolve a conflict whenever the rebase stops, then indicate the rebase has completed  
 
+### Manual resolution
+
+ - [base branch deleted file, target branch modifies it](https://github.com/desktop/rebase-test-cases/tree/4-manual-conflict-resolution-baseline/4-manual-conflict-resolution)
+    - conflict detected, but no text-base resolution available
+    - Desktop should ask user which version of the file to use
+    - application sets the right version and continues the rebase
+
 ### Complex Rebase
 
 - complex rebase without conflicts
