@@ -8,13 +8,13 @@ In all scenarios where a conflict is encountered, the user should be able to abo
 
 ### Simple Rebase
 
- - [simple rebase without conflicts](https://github.com/shiftkey/rebase-test-cases/tree/1-simple-rebase-base-branch/1-simple-rebase-no-conflicts)
+ - [simple rebase without conflicts](https://github.com/desktop/rebase-test-cases/tree/1-simple-rebase-base-branch/1-simple-rebase-no-conflicts)
     - changes in the target branch do not overlap with the base branch
     - Desktop should display the rebase progress (even for a simple rebase), and then indicate the rebase completed without encountering conflicts
- - [simple rebase with simple conflict](https://github.com/shiftkey/rebase-test-cases/tree/2-simple-rebase-conflict-base-branch/2-simple-rebase-conflict)
+ - [simple rebase with simple conflict](https://github.com/desktop/rebase-test-cases/tree/2-simple-rebase-conflict-base-branch/2-simple-rebase-conflict)
     - changes in the target branch overlap with work in the base branch
     - Desktop should display the rebase progress, ask the user to resolve a conflict, then indicate the rebase has completed  
- - [simple rebase with multiple conflicts](https://github.com/shiftkey/rebase-test-cases/tree/3-simple-rebase-multiple-conflicts-baseline/3-simple-rebase-multiple-conflicts)
+ - [simple rebase with multiple conflicts](https://github.com/desktop/rebase-test-cases/tree/3-simple-rebase-multiple-conflicts-baseline/3-simple-rebase-multiple-conflicts)
     - changes in the target branch overlap with work in the base branch and need significant work to resolve
     - Desktop should display the rebase progress, ask the user to resolve a conflict whenever the rebase stops, then indicate the rebase has completed  
 
