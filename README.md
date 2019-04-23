@@ -27,7 +27,7 @@ In all scenarios where a conflict is encountered, the user should be able to abo
 
 ### Edge cases
 
- - [gitignore change on base branch](https://github.com/desktop/rebase-test-cases/tree/5-gitignore-on-base-branch/5-gitignore-on-base-branch)
+ - [gitignore change on base branch](https://github.com/desktop/rebase-test-cases/tree/5-gitignore-base-branch/5-gitignore-on-base-branch)
    - `gitignore` rules on base branch which clashes with target branch commits
    - tracked file matching pattern is included
    - untracked file matching pattern is hidden
